@@ -19,7 +19,54 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a71b994a-42b3-4559-a1a9-673616e1cab8" name="Default Changelist" comment="" />
+    <list default="true" id="a71b994a-42b3-4559-a1a9-673616e1cab8" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/sensors.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/sensors.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assembly-CSharp.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Assembly-CSharp.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Ground.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Ground.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/08/0803498bb4b5f3aed8dc6ab366e7647c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/0b/0b73d94493b00a4b484c1de4660327b0" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/12/125eee8744712bb385b7315e0c2da8c5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/1e/1ea97e7d208c75c2db1679bbf083699f" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/63/6366bb0face6198586af26bc373be780" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/88/886a3aed734fb3f65330d930db099869" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/90/9000433180e2e22916572ffca56973ac" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/94/946ca7b8e0b84976cb78f857e24a9e96" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/9c/9c614f8e67bc2d5005324fff046818ce" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/a0/a089ceff1a66251b0b686d55b55e58b2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/Artifacts/db/db25da9afec41807b33865f908600561" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/Library/CurrentLayout-default.dwlt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/EditorInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/EditorInstance.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/InspectorExpandedItems.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/BuiltinAssemblies.stamp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ShaderCache/EditorEncounteredVariants" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a6/a6f601253ccdfcdcb5e120bd1355e91e.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/MainStageHierarchy/a6/a6f601253ccdfcdcb5e120bd1355e91e.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/StateCache/SceneView/28/28f10ad4b30f97875ed999db3649a3b6.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/StateCache/SceneView/28/28f10ad4b30f97875ed999db3649a3b6.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler3.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" beforeDir="false" afterPath="$PROJECT_DIR$/Library/shadercompiler-UnityShaderCompiler4.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-1fa43851d749b467dbe9379a9560df89" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4b66ba70848a74dd1b737ee5ab074af4" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-4fe579c7eafea43c7a43cea724674801" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6845ec43d04644a13ae4d3ea20965d99" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-6aa2adc03a52743ce84c5439d6714126" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-7348319a950e64121882fbb9a53d4e7c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-8bf36c602944d489bb309a6a164de6bb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-9641ad3965ef74c1185d006b6741136d" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-b992ca72b5008410d86babe7bbdd0ab3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-c12d7d165bfb64464bbe2c483012c21a" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Temp/UnityTempFile-e85bb8def27834fb1b5eb2b26bda3b27" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/Assembly-CSharp.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,8 +78,10 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" />
         <option value="$PROJECT_DIR$/packages.config" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/sensors.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/brain.cs" />
       </list>
     </option>
   </component>
@@ -77,7 +126,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608752788002</updated>
-      <workItem from="1608752794402" duration="1306000" />
+      <workItem from="1608752794402" duration="2005000" />
+      <workItem from="1608759550910" duration="5456000" />
     </task>
     <servers />
   </component>
@@ -96,6 +146,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />

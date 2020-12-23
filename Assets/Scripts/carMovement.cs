@@ -1,17 +1,19 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class carMovement : MonoBehaviour
 {
-    [SerializeField] private float movingSpeed;
-    private GameObject car;
-    private Rigidbody rb;
+    [SerializeField] private float _movingSpeed;
+    GameObject _car;
+    Rigidbody _rb;
+    brain _brain;
 
-    Vector3 rotationRight = new Vector3(0, 30, 0);
-    Vector3 rotationLeft = new Vector3(0, -30, 0);
+    Vector3 _rotationRight = new Vector3(0, 30, 0);
+    Vector3 _rotationLeft = new Vector3(0, -30, 0);
 
-    Vector3 forward = new Vector3(0, 0, 1);
+    Vector3 _forward = new Vector3(0, 0, 1);
     
     //this value multiplies with the movespeed
     public float moveInput;
@@ -23,23 +25,29 @@ public class carMovement : MonoBehaviour
     
     void Start()
     {
-        car = this.gameObject;
-        rb = this.gameObject.GetComponent<Rigidbody>();
+        _car = this.gameObject;
+        _rb = this.gameObject.GetComponent<Rigidbody>();
+        _brain = this.gameObject.GetComponent<brain>();
     }
 
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.Translate(forward * (movingSpeed * moveInput * Time.deltaTime));
+        transform.Translate(_forward * (_movingSpeed * moveInput * Time.deltaTime));
         
         if (rotateInput < 0.4f) {
-            Quaternion deltaRotationRight = Quaternion.Euler(rotationRight * Time.deltaTime);
-            rb.MoveRotation(rb.rotation * deltaRotationRight);
+            Quaternion deltaRotationRight = Quaternion.Euler(_rotationRight * Time.deltaTime);
+            _rb.MoveRotation(_rb.rotation * deltaRotationRight);
         }
         if(rotateInput > 0.6f){
-            Quaternion deltaRotationLeft = Quaternion.Euler(rotationLeft * Time.deltaTime);
-            rb.MoveRotation(rb.rotation * deltaRotationLeft); 
+            Quaternion deltaRotationLeft = Quaternion.Euler(_rotationLeft * Time.deltaTime);
+            _rb.MoveRotation(_rb.rotation * deltaRotationLeft); 
         }
         
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        _brain.CarCrash();
     }
 }

@@ -5,7 +5,9 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
+          <e p="brain.cs" t="Include" />
           <e p="carMovement.cs" t="Include" />
+          <e p="sensors.cs" t="Include" />
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
