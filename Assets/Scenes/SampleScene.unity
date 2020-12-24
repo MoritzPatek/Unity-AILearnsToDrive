@@ -2794,6 +2794,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   distanceWent: 0
+  chance: 10
+  strenght: 5
 --- !u!114 &1840176486
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2806,7 +2808,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e082c1d81a637421f9a55115a2306b03, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _movingSpeed: 2
+  _movingSpeed: 5
   startPoint: {fileID: 2003049959}
   moveInput: 0
   rotateInput: 0

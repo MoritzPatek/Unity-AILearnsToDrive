@@ -35,7 +35,7 @@ public class carMovement : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        transform.Translate(_forward * (_movingSpeed * moveInput * Time.deltaTime));
+        _car.transform.Translate((_forward * (_movingSpeed * moveInput * Time.deltaTime))+new Vector3(0,0,0.00001f));
         
         if (rotateInput < 0.4f) {
             Quaternion deltaRotationRight = Quaternion.Euler(_rotationRight * Time.deltaTime);

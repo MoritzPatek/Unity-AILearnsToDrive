@@ -51,9 +51,9 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\carMovement.cs" />
+     <Compile Include="Assets\Scripts\colliderController.cs" />
      <Compile Include="Assets\Scripts\brain.cs" />
      <Compile Include="Assets\Scripts\sensors.cs" />
-     <Compile Include="Assets\Scripts\colliderController.cs" />
  <Reference Include="Unity.Timeline.Editor">
  <HintPath>/Users/moritzpatek/Desktop/Unity-AILearnsToDrive/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>

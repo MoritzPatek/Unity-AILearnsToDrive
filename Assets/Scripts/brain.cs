@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using static System.Math;
 
 public class brain : MonoBehaviour
 {
@@ -11,13 +12,15 @@ public class brain : MonoBehaviour
 
     //those are the values i will use to tell the neural network, if it messed up or if it performed good
     public float distanceWent; //fitness
-
     private int[] layers = new int[3] {7,5,2}; 
 
     private float[][][] weights; 
     private float[][] biases;
     private float[][] neurons;
-    private float[] activations; 
+    private float[] activations;
+
+    public int chance;
+    public float strenght;
     
     
 
@@ -90,8 +93,8 @@ public class brain : MonoBehaviour
     {
         //creating a list of all the sensor data we have 
         float[] originInputs = new [] {_sensors.currentSpeed, _sensors.rotation, _sensors.distanceForward, _sensors.distanceLeft, _sensors.distanceRight, _sensors.distanceFLeft, _sensors.distanceFRight};
-        
         float[] output = feedForward(originInputs);
+        
         _carMovement.moveInput = output[0];
         _carMovement.rotateInput = output[1];
         
@@ -122,14 +125,39 @@ public class brain : MonoBehaviour
 
     private float sigmoidFunction(float value)
     {
-        float k = Mathf.Exp(value);
-        return k / (1.0f + k);
+        decimal x = new decimal(value);
+        double k = Math.Exp((double)value);
+        
+        return (float)(k / (1.0f + k));
     }
+    
+    public void Mutate(int chance, float val)//used as a simple mutation function for any genetic implementations.
+    {
+        for (int i = 0; i < biases.Length; i++)
+        {
+            for (int j = 0; j < biases[i].Length; j++)
+            {
+                biases[i][j] = (UnityEngine.Random.Range(0f, chance) <= 5) ? biases[i][j] += UnityEngine.Random.Range(-val, val) : biases[i][j];
+            }
+        }
+
+        for (int i = 0; i < weights.Length; i++)
+        {
+            for (int j = 0; j < weights[i].Length; j++)
+            {
+                for (int k = 0; k < weights[i][j].Length; k++)
+                {
+                    weights[i][j][k] = (UnityEngine.Random.Range(0f, chance) <= 5) ? weights[i][j][k] += UnityEngine.Random.Range(-val, val) : weights[i][j][k];
+                }
+            }
+        }
+    } 
 
     public void CarCrash()
     {
         
         distanceWent = 0;
+        Mutate(chance, strenght);
     }
     
     
