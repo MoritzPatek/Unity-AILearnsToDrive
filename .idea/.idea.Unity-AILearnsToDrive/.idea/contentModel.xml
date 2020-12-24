@@ -7,6 +7,7 @@
         <e p="Scripts" t="Include">
           <e p="brain.cs" t="Include" />
           <e p="carMovement.cs" t="Include" />
+          <e p="colliderController.cs" t="Include" />
           <e p="sensors.cs" t="Include" />
         </e>
       </e>

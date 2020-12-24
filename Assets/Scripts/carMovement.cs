@@ -10,6 +10,8 @@ public class carMovement : MonoBehaviour
     Rigidbody _rb;
     brain _brain;
 
+    public Transform startPoint;
+
     Vector3 _rotationRight = new Vector3(0, 30, 0);
     Vector3 _rotationLeft = new Vector3(0, -30, 0);
 
@@ -44,6 +46,12 @@ public class carMovement : MonoBehaviour
             _rb.MoveRotation(_rb.rotation * deltaRotationLeft); 
         }
         
+    }
+
+    public void Respawn()
+    {
+        gameObject.transform.position = startPoint.position;
+        gameObject.transform.localRotation = startPoint.localRotation;
     }
 
   

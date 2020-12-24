@@ -20,13 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a71b994a-42b3-4559-a1a9-673616e1cab8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Unity-AILearnsToDrive/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/brain.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/brain.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ArtifactDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ArtifactDB" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ProtocolInstance.json" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ProtocolInstance.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SceneVisibilityState.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Library/ScriptAssemblies/Assembly-CSharp.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Library/SourceAssetDB" beforeDir="false" afterPath="$PROJECT_DIR$/Library/SourceAssetDB" afterDir="false" />
@@ -47,6 +46,7 @@
         <option value="$PROJECT_DIR$/packages.config" />
         <option value="$PROJECT_DIR$/Assets/Scripts/sensors.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/brain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/colliderController.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/carMovement.cs" />
       </list>
     </option>
@@ -94,7 +94,7 @@
       <updated>1608752788002</updated>
       <workItem from="1608752794402" duration="2005000" />
       <workItem from="1608759550910" duration="7861000" />
-      <workItem from="1608811550347" duration="5257000" />
+      <workItem from="1608811550347" duration="5907000" />
     </task>
     <servers />
   </component>
