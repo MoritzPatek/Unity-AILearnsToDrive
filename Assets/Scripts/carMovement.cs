@@ -46,8 +46,5 @@ public class carMovement : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter(Collision other)
-    {
-        _brain.CarCrash();
-    }
+  
 }

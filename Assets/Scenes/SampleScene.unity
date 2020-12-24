@@ -2751,6 +2751,7 @@ GameObject:
   - component: {fileID: 1840176487}
   - component: {fileID: 1840176485}
   - component: {fileID: 1840176488}
+  - component: {fileID: 1840176486}
   m_Layer: 0
   m_Name: Car
   m_TagString: Untagged
@@ -2790,6 +2791,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b807103b27f68454e8d86c5203ab74f8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  distanceWent: 0
+--- !u!114 &1840176486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1840176483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e082c1d81a637421f9a55115a2306b03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _movingSpeed: 2
+  moveInput: 0
+  rotateInput: 0
 --- !u!114 &1840176487
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2808,6 +2825,7 @@ MonoBehaviour:
   rotation: 0
   distanceFLeft: 0
   distanceFRight: 0
+  currentSpeed: 0
 --- !u!54 &1840176488
 Rigidbody:
   m_ObjectHideFlags: 0
